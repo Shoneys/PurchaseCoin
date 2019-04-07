@@ -4,13 +4,13 @@ from uuid import uuid4
 
 from flask import Flask, jsonify, request
 
-from BcF import Blockchaininst
+from Blockchain_DataStructure import Blockchaininst
 
 blockchain = Blockchaininst
 
 # Instantiate our Node
 app = Flask(__name__)
-from FFN import NodeApp
+from FlaskFrameworkNode import NodeApp
 
 app.register_blueprint(NodeApp)
 
