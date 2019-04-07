@@ -118,7 +118,7 @@ def page_not_found(e):
     return "STOP BREAKING THE BLOCKCHAIN!", 404
 
 
-if __name__ == '__main__':
+while __name__ == '__main__':
     from argparse import ArgumentParser
 
     parser = ArgumentParser()
