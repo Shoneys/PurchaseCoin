@@ -71,19 +71,8 @@ def new_transaction():
 
 
 def verify_transaction(values):
-    halflength = int(len(blockchain.chain) / 2)
-    p1 = Process(target=countmoney, args=(values, 0, halflength - 1))
-    p2 = Process(target=countmoney, args=(values, halflength, len(blockchain.chain)))
-    p1.start()
-    p2.start()
-
-    p1.join()
-    p2.join()
-
-
-def countmoney(values, a, b):
     moneycount = 0
-    for x in range(a, b):
+    for x in range(0, len(blockchain.chain)):
         for y in range(0, len(blockchain.chain[x]['transactions'])):
             print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
             print('Sender in transaction: {}'.format(values['sender']))
@@ -100,6 +89,8 @@ def countmoney(values, a, b):
         #                 # if values['sender'] == blockchain.chain[x]['transactions'][y]['recipient']:
         # blockchain.chain[x]['transactions'][y]['amount'] = 0
     # need separate document to keep track of coins that are already spent, or experiment with setting values equal to 0
+
+
 
 
 # counts how much money you got
@@ -125,4 +116,4 @@ while __name__ == '__main__':
     parser.add_argument('-p', '--port', default=5000, type=int, help='port to listen on')
     args = parser.parse_args()
     port = args.port
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port, threaded=True)
