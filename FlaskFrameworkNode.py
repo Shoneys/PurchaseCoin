@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-from BcF import Blockchaininst
+from Blockchain_DataStructure import Blockchaininst
 
 blockchain = Blockchaininst
 
