@@ -1,12 +1,11 @@
 # pip install Flask==0.12.2 requests==2.18.4
-from multiprocessing import Process
 from uuid import uuid4
 
 from flask import Flask, jsonify, request
 
-from Blockchain_DataStructure import Blockchaininst
+from Blockchain_DataStructure import Blockchain
 
-blockchain = Blockchaininst
+blockchain = Blockchain()
 
 # Instantiate our Node
 app = Flask(__name__)
@@ -82,6 +81,7 @@ def verify_transaction(values):
         print('{} only has {} PurchaseCoins!'.format(values['sender'], moneycount))
         return False
 
+        # makes
         # for x in range(a, b):
         #     for y in range(0, len(blockchain.chain[x]['transactions'])):
         #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
@@ -91,18 +91,19 @@ def verify_transaction(values):
     # need separate document to keep track of coins that are already spent, or experiment with setting values equal to 0
 
 
-
-
 # counts how much money you got
-# @app.route('/nodes/(recipient)', methods=['GET'])
-# def countmoneyrecieved():
-#     moneycount = 0
-#     for x in range(0, len(blockchain.chain)):
-#         for y in range(0, len(blockchain.chain[x]['transactions'])):
-#             print(path)
-#             if  == blockchain.chain[x]['transactions'][y]['recipient']:
-#                 moneycount += blockchain.chain[x]['transactions'][y]['amount']
-#     print("{} has recieved {} coins".format(recipient, moneycount))
+@app.route('/wallet', methods=['GET'])
+def countmoneyrecieved():
+    username = request.args.get('username')
+    moneycount = 0
+    for x in range(0, len(blockchain.chain)):
+        for y in range(0, len(blockchain.chain[x]['transactions'])):
+            if username == blockchain.chain[x]['transactions'][y]['recipient']:
+                moneycount += blockchain.chain[x]['transactions'][y]['amount']
+    response = {'message': username + " has received " + str(moneycount) + " coins in total"}
+
+    return jsonify(response), 201
+
 
 @app.errorhandler(404)
 def page_not_found(e):
