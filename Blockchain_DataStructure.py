@@ -182,6 +182,3 @@ class Blockchain(object):
         guess = f'{last_proof}{proof}{last_hash}'.encode()
         guess_hash = hashlib.sha256(guess).hexdigest()
         return guess_hash[:4] == "0000"
-
-
-Blockchaininst = Blockchain()

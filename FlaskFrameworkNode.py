@@ -1,8 +1,8 @@
 from flask import Blueprint, jsonify, request
 
-from Blockchain_DataStructure import Blockchaininst
+from Blockchain_DataStructure import Blockchain
 
-blockchain = Blockchaininst
+blockchain = Blockchain()
 
 NodeApp = Blueprint('FFN', __name__)
 
