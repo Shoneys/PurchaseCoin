@@ -71,17 +71,11 @@ def new_transaction():
 
 
 def verify_transaction(values):
-    moneycount = 0
-    for x in range(0, len(blockchain.chain)):
-        for y in range(0, len(blockchain.chain[x]['transactions'])):
-            print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
-            print('Sender in transaction: {}'.format(values['sender']))
-            if values['sender'] == blockchain.chain[x]['transactions'][y]['recipient']:
-                moneycount += blockchain.chain[x]['transactions'][y]['amount']
-    if moneycount < int(values['amount']):
-        print('{} only has {} PurchaseCoins!'.format(values['sender'], moneycount))
+    if blockchain.wallet_balances[values['sender']][0] < int(values['amount']):
+        print('{} only has {} PurchaseCoins!'.format(values['sender'], blockchain.wallet_balances[values['sender']][0]))
         return False
 
+<<<<<<< HEAD
         # for x in range(a, b):
         #     for y in range(0, len(blockchain.chain[x]['transactions'])):
         #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
@@ -91,6 +85,20 @@ def verify_transaction(values):
     # need separate document to keep track of coins that are already spent, or experiment with setting values equal to 0
 
 
+=======
+
+# counts how much money you got
+@app.route('/wallet', methods=['GET'])
+def countmoneyrecieved():
+    username = request.args.get('username')
+    moneycount = 0
+    for x in range(0, len(blockchain.chain)):
+        for y in range(0, len(blockchain.chain[x]['transactions'])):
+            if username == blockchain.chain[x]['transactions'][y]['recipient']:
+                moneycount += blockchain.chain[x]['transactions'][y]['amount']
+    response = {'Current balance': " " + blockchain.wallet_balances['username'][0],
+                'Total Received': username + " has received " + str(moneycount) + " coins in total"}
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 
 # counts how much money you got
