@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d18b70e0-2741-4f1a-b533-a1950d49e563" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="d18b70e0-2741-4f1a-b533-a1950d49e563" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFrameworkMining.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFrameworkMining.py" afterDir="false" />
+    </list>
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PurchaseCoin$FFB.coverage" NAME="FFB Coverage Results" MODIFIED="1554678023376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PC$FFB.coverage" NAME="FFB Coverage Results" MODIFIED="1552513922335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/PurchaseCoin$FlaskFrameworkMining.coverage" NAME="FlaskFrameworkMining Coverage Results" MODIFIED="1554778729625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -87,6 +95,46 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+    <SUITE FILE_PATH="coverage/PurchaseCoin$FlaskFrameworkMining.coverage" NAME="FlaskFrameworkMining Coverage Results" MODIFIED="1554680517695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFrameworkMining.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+              <folding>
+                <element signature="e#45#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blockchain_DataStructure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlaskFrameworkNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,9 +150,7 @@
       <find>proof =</find>
       <find>optional</find>
       <find>128</find>
-      <find>path</find>
       <find>/chain</find>
-      <find>blockchainin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,8 +164,6 @@
         <option value="$PROJECT_DIR$/FFB.py" />
         <option value="$PROJECT_DIR$/Blockchain_DataStructure.py" />
         <option value="$PROJECT_DIR$/FlaskFrameworkNode.py" />
-        <option value="$PROJECT_DIR$/scrap code" />
-        <option value="$PROJECT_DIR$/BinarySearch.py" />
         <option value="$PROJECT_DIR$/FlaskFrameworkMining.py" />
       </list>
     </option>
@@ -266,10 +310,14 @@
       <workItem from="1553644892908" duration="753000" />
       <workItem from="1554484849581" duration="782000" />
       <workItem from="1554671213257" duration="1776000" />
+<<<<<<< HEAD
       <workItem from="1554677524826" duration="6017000" />
       <workItem from="1554748941183" duration="623000" />
       <workItem from="1554752336382" duration="415000" />
       <workItem from="1554778623856" duration="127000" />
+=======
+      <workItem from="1554677524826" duration="3383000" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
     </task>
     <task id="LOCAL-00001" summary="resolved name changes">
       <created>1554677793582</created>
@@ -289,7 +337,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23191000" />
+=======
+    <option name="totallyTimeSpent" value="19392000" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,13 +354,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1018" y="0" width="1037" height="1118" extended-state="0" />
+<<<<<<< HEAD
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21596725" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10644831" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.30425963" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30527383" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,6 +398,67 @@
     </ignored-roots>
     <MESSAGE value="resolved name changes" />
     <option name="LAST_COMMIT_MESSAGE" value="resolved name changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FlaskFrameworkMining.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Cryptography Presentation/sha256miningdemonstration/SecureHashAlgorithm256_miningdemonstration.py" />
@@ -396,6 +519,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -416,23 +540,41 @@
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/FlaskFrameworkMining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#80#0" expanded="true" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blockchain_DataStructure.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="192">
           <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="29" />
+=======
+        <state relative-caret-position="334">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFrameworkMining.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFrameworkNode.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+=======
+        <state relative-caret-position="139">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+>>>>>>> parent of ebd6514... Added BinarySearch, changed blockchain import
           <folding>
-            <element signature="e#45#67#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
