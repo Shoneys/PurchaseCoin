@@ -78,6 +78,7 @@ def verify_transaction(values):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # for x in range(a, b):
         #     for y in range(0, len(blockchain.chain[x]['transactions'])):
         #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
@@ -90,6 +91,8 @@ def verify_transaction(values):
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 =======
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
@@ -106,6 +109,9 @@ def countmoneyrecieved():
                 'Total Received': username + " has received " + str(moneycount) + " coins in total"}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"

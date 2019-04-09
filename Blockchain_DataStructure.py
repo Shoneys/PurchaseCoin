@@ -193,9 +193,12 @@ class Blockchain(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 Blockchaininst = Blockchain()
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
