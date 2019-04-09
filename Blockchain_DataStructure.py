@@ -190,21 +190,4 @@ class Blockchain(object):
         guess = f'{last_proof}{proof}{last_hash}'.encode()
         guess_hash = hashlib.sha256(guess).hexdigest()
         return guess_hash[:4] == "0000"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
 Blockchaininst = Blockchain()
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"

@@ -1,5 +1,4 @@
 # pip install Flask==0.12.2 requests==2.18.4
-from multiprocessing import Process
 from uuid import uuid4
 
 from flask import Flask, jsonify, request
@@ -18,6 +17,7 @@ app.register_blueprint(NodeApp)
 node_identifier = str(uuid4()).replace('-', '')
 print('Node 128-bit Universal Unique Identifier: {}'.format(node_identifier))
 
+#make it so it only mines, and automines, when a new transaciton coems in
 
 @app.route('/mine', methods=['GET'])
 def mine():
@@ -27,6 +27,7 @@ def mine():
 
     # We run the proof of work algorithm to get the next proof...
     last_block = blockchain.last_block
+
     proof = blockchain.proof_of_work(last_block)
 
     # We must receive a reward for finding the proof.
@@ -50,7 +51,6 @@ def mine():
     }
     return jsonify(response), 200
 
-
 @app.route('/transactions/new', methods=['POST'])
 def new_transaction():
     values = request.get_json()
@@ -60,7 +60,7 @@ def new_transaction():
     if not all(k in values for k in required):
         return 'Missing values', 400
     # verify sender has received enough coins to their private keys (for now, private keys are just "recipient")
-    if verify_transaction(values) is not False:
+    if verify_transaction(values) is True:
         # Create a new Transaction
         index = blockchain.new_transaction(values['sender'], values['recipient'], values['amount'])
         response = {'message': f'Transaction will be added to Block {index}'}
@@ -71,70 +71,28 @@ def new_transaction():
 
 
 def verify_transaction(values):
-    if blockchain.wallet_balances[values['sender']][0] < int(values['amount']):
-        print('{} only has {} PurchaseCoins!'.format(values['sender'], blockchain.wallet_balances[values['sender']][0]))
+    if values['sender'] in blockchain.wallet_balances:
+        if blockchain.wallet_balances[values['sender']] > int(values['amount']):
+            return True
+        print('{} only has {} PurchaseCoins!'.format(values['sender'], blockchain.wallet_balances[values['sender']]))
         return False
+    print('{} has no account'.format(values['sender']))
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        # for x in range(a, b):
-        #     for y in range(0, len(blockchain.chain[x]['transactions'])):
-        #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
-        #         print('Sender in transaction: {}'.format(values['sender']))
-        #                 # if values['sender'] == blockchain.chain[x]['transactions'][y]['recipient']:
-        # blockchain.chain[x]['transactions'][y]['amount'] = 0
-    # need separate document to keep track of coins that are already spent, or experiment with setting values equal to 0
 
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-
-=======
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-
-# counts how much money you got
+# outputs balance and total received
 @app.route('/wallet', methods=['GET'])
 def countmoneyrecieved():
-    username = request.args.get('username')
-    moneycount = 0
-    for x in range(0, len(blockchain.chain)):
-        for y in range(0, len(blockchain.chain[x]['transactions'])):
-            if username == blockchain.chain[x]['transactions'][y]['recipient']:
-                moneycount += blockchain.chain[x]['transactions'][y]['amount']
-    response = {'Current balance': " " + blockchain.wallet_balances['username'][0],
-                'Total Received': username + " has received " + str(moneycount) + " coins in total"}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
-=======
->>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+    username = request.args.get('user')
+    if username in blockchain.wallet_balances:
+        moneycount = 0
+        response = {'Current balance': blockchain.wallet_balances[username],
+                    'Total Received': f"{username} has received {moneycount} coins in total"}
+        return jsonify(response), 201
+    else:
+        response = {'error': '{} has no account'.format(username)}
 
+    return jsonify(response), 400
 
-# counts how much money you got
-# @app.route('/nodes/(recipient)', methods=['GET'])
-# def countmoneyrecieved():
-#     moneycount = 0
-#     for x in range(0, len(blockchain.chain)):
-#         for y in range(0, len(blockchain.chain[x]['transactions'])):
-#             print(path)
-#             if  == blockchain.chain[x]['transactions'][y]['recipient']:
-#                 moneycount += blockchain.chain[x]['transactions'][y]['amount']
-#     print("{} has recieved {} coins".format(recipient, moneycount))
 
 @app.errorhandler(404)
 def page_not_found(e):
