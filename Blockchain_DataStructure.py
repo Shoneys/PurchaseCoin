@@ -5,17 +5,16 @@ https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 import hashlib
 import json
-from time import time
+from time import time 
 from urllib.parse import urlparse
-
 import requests
+
 
 
 class Blockchain(object):
     def __init__(self):
         self.current_transactions = []
         self.chain = []
-        self.wallet_balances = {}
         self.nodes = set()
 
         # Create the genesis block
@@ -134,13 +133,6 @@ class Blockchain(object):
             'amount': amount,
         })
 
-        if sender not in self.wallet_balances:
-            self.wallet_balances[sender] = 0
-        if recipient not in self.wallet_balances:
-            self.wallet_balances[recipient] = 0
-
-        self.wallet_balances[sender] = self.wallet_balances[sender] - amount
-        self.wallet_balances[recipient] = self.wallet_balances[recipient] + amount
         return self.last_block['index'] + 1
 
     @property
