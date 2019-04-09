@@ -5,6 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearchandHash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blockchain_DataStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blockchain_DataStructure.py" afterDir="false" />
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
       <change beforePath="$PROJECT_DIR$/BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearchandHash.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blockchain_DataStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blockchain_DataStructure.py" afterDir="false" />
@@ -26,7 +31,11 @@
     <SUITE FILE_PATH="coverage/PC$FFB.coverage" NAME="FFB Coverage Results" MODIFIED="1552513922335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/PurchaseCoin$FlaskFrameworkMining.coverage" NAME="FlaskFrameworkMining Coverage Results" MODIFIED="1554680517695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/PurchaseCoin$FlaskFrameworkMining.coverage" NAME="FlaskFrameworkMining Coverage Results" MODIFIED="1554778527409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
     <SUITE FILE_PATH="coverage/PurchaseCoin$FlaskFrameworkMining.coverage" NAME="FlaskFrameworkMining Coverage Results" MODIFIED="1554778527409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -41,6 +50,7 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="1088">
               <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
               <folding>
@@ -48,11 +58,16 @@
 =======
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
             <state relative-caret-position="8">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#45#67#0" expanded="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -61,6 +76,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
@@ -82,6 +98,8 @@
 =======
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blockchain_DataStructure.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,6 +108,9 @@
               <folding>
                 <element signature="e#111#125#0" expanded="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -137,6 +158,9 @@
         <option value="$PROJECT_DIR$/FlaskFrameworkMining.py" />
         <option value="$PROJECT_DIR$/Blockchain_DataStructure.py" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -295,6 +319,9 @@
       <workItem from="1554760577912" duration="670000" />
       <workItem from="1554772524412" duration="2170000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -340,6 +367,9 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="26700000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -359,7 +389,11 @@
     <layout>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10644831" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20675537" />
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20675537" />
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -372,8 +406,13 @@
       <window_info anchor="bottom" id="Find" order="1" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30527383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995943" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30425963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858013" />
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30425963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39858013" />
@@ -475,6 +514,9 @@
     <MESSAGE value="Fixed blockchain import. major performance increase" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed blockchain import. major performance increase" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -516,6 +558,7 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FlaskFrameworkMining.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -533,6 +576,8 @@
 =======
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
     <entry file="file://$PROJECT_DIR$/scrap code" />
     <entry file="file://$PROJECT_DIR$/FlaskFrameworkNode.py" />
     <entry file="file://$PROJECT_DIR$/binarySearchandHash.py" />
@@ -544,6 +589,9 @@
             <element signature="e#45#67#0" expanded="true" />
           </folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
@@ -554,8 +602,13 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="139">
           <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+=======
+        <state relative-caret-position="171">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
         <state relative-caret-position="171">
           <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />

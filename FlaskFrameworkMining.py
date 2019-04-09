@@ -77,6 +77,7 @@ def verify_transaction(values):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # for x in range(a, b):
         #     for y in range(0, len(blockchain.chain[x]['transactions'])):
         #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
@@ -89,6 +90,8 @@ def verify_transaction(values):
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 =======
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 # counts how much money you got
 @app.route('/wallet', methods=['GET'])
@@ -102,6 +105,9 @@ def countmoneyrecieved():
     response = {'Current balance': " " + blockchain.wallet_balances['username'][0],
                 'Total Received': username + " has received " + str(moneycount) + " coins in total"}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 =======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
