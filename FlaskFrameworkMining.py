@@ -76,6 +76,7 @@ def verify_transaction(values):
         return False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # for x in range(a, b):
         #     for y in range(0, len(blockchain.chain[x]['transactions'])):
         #         print('Sender from chain: {}'.format(blockchain.chain[x]['transactions'][y]['sender']))
@@ -84,6 +85,8 @@ def verify_transaction(values):
         # blockchain.chain[x]['transactions'][y]['amount'] = 0
     # need separate document to keep track of coins that are already spent, or experiment with setting values equal to 0
 
+=======
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 =======
 
@@ -98,6 +101,9 @@ def countmoneyrecieved():
                 moneycount += blockchain.chain[x]['transactions'][y]['amount']
     response = {'Current balance': " " + blockchain.wallet_balances['username'][0],
                 'Total Received': username + " has received " + str(moneycount) + " coins in total"}
+<<<<<<< HEAD
+>>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
+=======
 >>>>>>> parent of 6bfdc0c... Revert "laid framework for anti double spending"
 
 
