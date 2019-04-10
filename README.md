@@ -12,9 +12,9 @@ To do:<br />
   
 
 to resolve conflicts, you must make sure all nodes have registered all other nodes
-    you must register each node with each other one
-    ex:
-       make sure 0.0.0.0:0000 knows itself and any other nodes exist
-    Makes the longest chain the new head, just like Bitcoin
-        The block after the genesis block becomes that of the node with longest chain
+    you must register each node with each other one<br />
+    ex:<br />
+       make sure 0.0.0.0:0000 knows itself and any other nodes exist<br /><br />
+    Makes the longest chain the new head, just like Bitcoin<br />
+        The block after the genesis block becomes that of the node with longest chain<br />
     
