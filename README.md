@@ -8,7 +8,6 @@ Running a blockchain in python is not recommended. One of the largest problems o
   and python runs at 50x's the powerdraw of most C++ applications, such as Bitcoin.
 
 To do:<br />
-  convert loop-within-loop (O(n^2)) for transaction verification to binary search tree DS, or just a faster alternative<br />
   prevent easy main chain takeover by larger chains
   
 
