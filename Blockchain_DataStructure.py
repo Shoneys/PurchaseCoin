@@ -21,21 +21,6 @@ class Blockchain(object):
         # Create the genesis block
         self.new_block(previous_hash='1', proof=100)
 
-    def register_node(self, address):
-        """
-        Add a new node to the list of nodes
-        :param address: Address of node. Eg. 'http://192.168.0.5:5000'
-        """
-
-        parsed_url = urlparse(address)
-        if parsed_url.netloc:
-            self.nodes.add(parsed_url.netloc)
-        elif parsed_url.path:
-            # Accepts an URL without scheme like '192.168.0.5:5000'.
-            self.nodes.add(parsed_url.path)
-        else:
-            raise ValueError('Invalid URL')
-
     def valid_chain(self, chain):
         """
         Determine if a given blockchain is valid
@@ -186,8 +171,24 @@ class Blockchain(object):
         :param last_hash: <str> The hash of the Previous Block
         :return: <bool> True if correct, False if not.
         """
-
         guess = f'{last_proof}{proof}{last_hash}'.encode()
         guess_hash = hashlib.sha256(guess).hexdigest()
         return guess_hash[:4] == "0000"
+
+    def register_node(self, address):
+        """
+        Add a new node to the list of nodes
+        :param address: Address of node. Eg. 'http://192.168.0.5:5000'
+        """
+
+        parsed_url = urlparse(address)
+        if parsed_url.netloc:
+            self.nodes.add(parsed_url.netloc)
+        elif parsed_url.path:
+            # Accepts an URL without scheme like '192.168.0.5:5000'.
+            self.nodes.add(parsed_url.path)
+        else:
+            raise ValueError('Invalid URL')
+
+
 Blockchaininst = Blockchain()

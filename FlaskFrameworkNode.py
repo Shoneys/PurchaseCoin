@@ -33,7 +33,6 @@ def register_nodes():
     }
     return jsonify(response), 201
 
-
 @NodeApp.route('/nodes/resolve', methods=['GET'])
 def consensus():
     replaced = blockchain.resolve_conflicts()

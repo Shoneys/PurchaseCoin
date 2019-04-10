@@ -11,3 +11,11 @@ To do:<br />
   convert loop-within-loop (O(n^2)) for transaction verification to binary search tree DS, or just a faster alternative<br />
   prevent easy main chain takeover by larger chains
   
+
+to resolve conflicts, you must make sure all nodes have registered all other nodes
+    you must register each node with each other one
+    ex:
+       make sure 0.0.0.0:0000 knows itself and any other nodes exist
+    Makes the longest chain the new head, just like Bitcoin
+        The block after the genesis block becomes that of the node with longest chain
+    

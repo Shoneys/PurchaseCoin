@@ -17,7 +17,9 @@ app.register_blueprint(NodeApp)
 node_identifier = str(uuid4()).replace('-', '')
 print('Node 128-bit Universal Unique Identifier: {}'.format(node_identifier))
 
-#make it so it only mines, and automines, when a new transaciton coems in
+
+# make it so it only mines, and automines, when a new transaciton coems in
+# only useful if there is mass adoption
 
 @app.route('/mine', methods=['GET'])
 def mine():
@@ -50,6 +52,7 @@ def mine():
         'previous_hash': block['previous_hash'],
     }
     return jsonify(response), 200
+
 
 @app.route('/transactions/new', methods=['POST'])
 def new_transaction():
