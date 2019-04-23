@@ -1,6 +1,6 @@
 # PurchaseCoin
 
-Double click FlaskFrameworkMining.py, or run it in console to start your own node.
+Run FlaskFrameworkMining.py as a python app in console to start your own node.
 
 You may open it to the internet, but most of my experiments have been over LAN.
 
