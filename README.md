@@ -18,3 +18,4 @@ to resolve conflicts, you must make sure all nodes have registered all other nod
     Makes the longest chain the new head, just like Bitcoin<br />
         The block after the genesis block becomes that of the node with longest chain<br />
     
+[Link to associated paper](https://docs.google.com/document/d/1WeuhXmfUnOdHU9ayQrEQ5sZ-sTX6GXyfUA2yI0dGdk0/edit)
